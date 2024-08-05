@@ -3,14 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstrap5.3 css cdn -->
+    <!-- Bootstrap5.3 css -->
+    <link rel="stylesheet" href="/bootstrap-5.3.3/dist/css/bootstrap.min.css" />
+    <!-- Bootstrap icons -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>OneSpot</title>
   </head>
@@ -64,7 +67,7 @@
 
     <section class="hero-section">
       <div class="container-fluid">
-        <div class="px-4 py-5 my-5 text-center">
+        <div class="px-4 py-5 mt-5 text-center">
           <h1 class="poppins-bold">
             Lorem ipsum. For School.<br />
             <span style="color: #e2432e">Across Every Grade</span>
@@ -78,19 +81,376 @@
             </p>
           </div>
           <div class="d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-lg px-4 text-center text-white">Register</button> </div>
-        </div>
-        <div>
-          <img src="/img/Group 47880.png" class="rounded mx-auto d-block" alt="...">
+            <button
+              type="button"
+              class="btn btn-lg px-4 text-center text-white"
+            >
+              Register
+            </button>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Bootstrap js cdn -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+    <!-- New responsive image section -->
+    <section class="users image-section">
+      <div class="container">
+        <h2 class="text-center">Our Users</h2>
+        <div class="d-flex justify-content-center align-items-center">
+          <img
+            src="./img/Glory Anoliefo headshot (1).jpg"
+            class="circle-image"
+            alt="User profile image"
+          />
+          <img
+            src="/img/image-1000x1000 (1).jpg"
+            class="circle-image"
+            alt="User profile image"
+          />
+          <img
+            src="/img/image-1000x1000 (2).jpg"
+            class="circle-image"
+            alt="User profile image"
+          />
+          <img
+            src="/img/image-1000x1000.jpg"
+            class="circle-image"
+            alt="User profile image"
+          />
+        </div>
+        <div class="users-text">
+          <h2>4k+</h2>
+          <h6>Active Users</h6>
+        </div>
+      </div>
+    </section>
+
+    <section class="subject-carousel">
+      <div class="container py-5">
+        <div
+          id="subjectCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card">
+                    <div class="video-card">
+                      <video controls>
+                        <source src="movie.mp4" type="video/mp4" />
+                        <source src="movie.ogg" type="video/ogg" />
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">BIOLOGY</h5>
+                      <p class="card-text">
+                        At One Spot, we believe that education is the key to
+                        unlocking your full potential.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card">
+                    <div class="video-card">
+                      <video controls>
+                        <source src="movie.mp4" type="video/mp4" />
+                        <source src="movie.ogg" type="video/ogg" />
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">CHEMISTRY</h5>
+                      <p class="card-text">
+                        At One Spot, we believe that education is the key to
+                        unlocking your full potential.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card">
+                    <div class="video-card">
+                      <video controls>
+                        <source src="movie.mp4" type="video/mp4" />
+                        <source src="movie.ogg" type="video/ogg" />
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">COMMERCE</h5>
+                      <p class="card-text">
+                        At One Spot, we believe that education is the key to
+                        unlocking your full potential.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card">
+                    <div class="video-card">
+                      <video controls>
+                        <source src="movie.mp4" type="video/mp4" />
+                        <source src="movie.ogg" type="video/ogg" />
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">PHYSICS</h5>
+                      <p class="card-text">
+                        At One Spot, we believe that education is the key to
+                        unlocking your full potential.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card">
+                    <div class="video-card">
+                      <video controls>
+                        <source src="movie.mp4" type="video/mp4" />
+                        <source src="movie.ogg" type="video/ogg" />
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">MATHEMATICS</h5>
+                      <p class="card-text">
+                        At One Spot, we believe that education is the key to
+                        unlocking your full potential.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card">
+                    <div class="video-card">
+                      <video controls>
+                        <source src="movie.mp4" type="video/mp4" />
+                        <source src="movie.ogg" type="video/ogg" />
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">ENGLISH</h5>
+                      <p class="card-text">
+                        At One Spot, we believe that education is the key to
+                        unlocking your full potential.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#subjectCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#subjectCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="enroll-card">
+      <div class="card mx-5 mb-4 text-light" style="background-color: #e2432e">
+        <div class="card-body">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 mb-3 mb-lg-0">
+              <h5 class="card-title text-light">
+                Enroll with <span style="color: #febd01">ONESPOT</span> cbt
+                website today
+              </h5>
+              <p>
+                Whether you're looking to start a new career or enhance your
+                current skills, OneSpot is here to guide you every step of the
+                way.
+              </p>
+              <div class="row mb-3">
+                <div class="col-6">
+                  <h6 class="user-stat" style="color: #febd01">4 THOUSAND+</h6>
+                  <p>Nationwide Active Users</p>
+                </div>
+                <div class="col-6">
+                  <h6 class="user-stat" style="color: #febd01">30+</h6>
+                  <p>Across the country</p>
+                </div>
+              </div>
+              <div class="enroll-card-button">
+                <button class="enroll-button text-white">
+                  <h6>REGISTER NOW</h6>
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 text-center">
+              <img
+                src="/img/Group 47882.png"
+                alt="Learning Progress"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="after-enrollment">
+      <div class="container my-5">
+        <div class="enrollment-container">
+          <div class="image-container">
+            <img
+              src="/img/african_girl_with_books_in_hands-removebg-preview.png"
+              alt="Student with books"
+              class="img-fluid"
+            />
+          </div>
+          <div class="content-container p-4">
+            <h1 class="mb-3">Effortless Enrollment</h1>
+            <p class="mb-4">
+              Lorem ipsum is simply dummy text of the printing and typesetting
+              industry...
+            </p>
+            <div class="steps">
+              <div class="step-item">
+                <span class="step-number">01</span>
+                Choose a Program
+              </div>
+              <div class="step-item">
+                <span class="step-number">02</span>
+                Enroll and Submit Documents
+              </div>
+              <div class="step-item">
+                <span class="step-number">03</span>
+                Choose a Date and Time
+              </div>
+              <div class="step-item">
+                <span class="step-number">04</span>
+                Pick an Instructor
+              </div>
+              <div class="step-item">
+                <span class="step-number">05</span>
+                Start learning
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services py-5">
+      <div class="container text-center">
+        <h2 class="mb-4">
+          Our Team Provides Valuable Services at<br />Any Time in Any Situation
+        </h2>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="service-item text-center">
+              <div class="icon-wrapper bg-light-blue mb-3">
+                <i class="bi bi-mortarboard"></i>
+              </div>
+              <h3>Expert Guidance</h3>
+              <p>
+                Rely on seasoned professionals for tailored advice and guidance
+                and strategic planning aligned with your unique goals
+              </p>
+              <a href="#" class="text-primary">Read more</a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-item text-center">
+              <div class="icon-wrapper bg-light-red mb-3">
+                <i class="bi bi-shield-check"></i>
+              </div>
+              <h3>Track Progress</h3>
+              <p>
+                Continuously track your learning progress and get more insights
+                on improvement and achieve academic excellence
+              </p>
+              <a href="#" class="text-primary">Read more</a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-item text-center">
+              <div class="icon-wrapper bg-light-green mb-3">
+                <i class="bi bi-grid-3x3-gap"></i>
+              </div>
+              <h3>Customized Solutions</h3>
+              <p>
+                Receive and benefit from tutors with comprehensive solutions
+                that tailored to your unique learning style and academic
+                aspirations
+              </p>
+              <a href="#" class="text-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-white py-5" style="background-color: #EA4335;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4 mb-md-0">
+            <h2 class="h4 mb-3">Onespot</h2>
+            <p class="small mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="social-icons">
+              <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="text-white me-2"><i class="bi bi-linkedin"></i></a>
+              <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+            </div>
+          </div>
+          <div class="col-md-2 col-6 mb-4 mb-md-0">
+            <h5 class="h6 mb-3">About</h5>
+            <ul class="list-unstyled small">
+              <li><a href="#" class="text-white text-decoration-none">Menu</a></li>
+              <li><a href="#" class="text-white text-decoration-none">Features</a></li>
+              <li><a href="#" class="text-white text-decoration-none">News & Blogs</a></li>
+              <li><a href="#" class="text-white text-decoration-none">Help & Support</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-6 mb-4 mb-md-0">
+            <h5 class="h6 mb-3">Company</h5>
+            <ul class="list-unstyled small">
+              <li><a href="#" class="text-white text-decoration-none">How we work</a></li>
+              <li><a href="#" class="text-white text-decoration-none">Terms of service</a></li>
+              <li><a href="#" class="text-white text-decoration-none">Pricing</a></li>
+              <li><a href="#" class="text-white text-decoration-none">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5 class="h6 mb-3">Contact Us</h5>
+            <p class="small mb-1">2715 Ash Dr. San Jose, South Dakota 83475</p>
+            <p class="small mb-1">(704) 555-0127</p>
+            <p class="small">onespot@example.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap js -->
+    <script src="/bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
